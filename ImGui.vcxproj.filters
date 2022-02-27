@@ -39,10 +39,10 @@
     <ClInclude Include="backends\imgui_impl_glfw.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="backends\imgui_impl_vulkan_with_textures.h">
+    <ClInclude Include="misc\cpp\imgui_stdlib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="misc\cpp\imgui_stdlib.h">
+    <ClInclude Include="backends\imgui_impl_vulkan.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -68,10 +68,10 @@
     <ClCompile Include="backends\imgui_impl_glfw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="backends\imgui_impl_vulkan_with_textures.cpp">
+    <ClCompile Include="misc\cpp\imgui_stdlib.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="misc\cpp\imgui_stdlib.cpp">
+    <ClCompile Include="backends\imgui_impl_vulkan.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
